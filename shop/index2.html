@@ -1,0 +1,355 @@
+<!DOCTYPE html><!-- -->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Интернет магазин по продаже картин "LEONARDO"</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"> <!--Подключение Bootstrap ядро ​​CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet"> <!--Подключение Материал Дизайн Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet"> <!-- Подключение пользовательских стилей-->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar"> <!--Создание навигационной панели-->
+    <div class="container">
+      <a href=# class="navbar-brand waves-effect"> 
+        <strong class="blue-text">LEONARDO</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" 
+      data-target="#navbarContent"> <!--Создание кнопки адаптивного меню-->
+        <span class="navbar-toggler-icon"></span> <!--Иконка для кнопки адаптивного меню-->
+      </button> <!--Конец создание кнопки адаптивного меню-->
+      <div class="collapse navbar-collapse" id="navbarContent"> <!--Создание самого адаптивного меню-->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link waves-effect">Картины</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#" class="nav-link waves-effect">Краски</a>
+          </li>
+          <li class="nav-item">
+            <a href="index3.html" class="nav-link waves-effect">О нас</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav nav-flex-icons"> <!--Создание меню справа-->
+          <li class="nav-item">
+            <a href="#" class="nav-link waves-effect">
+              <span class="badge red z-depth-1 mr-1">4</span>
+              <i class="fa fa-shopping-cart"></i>
+              <span class="clearfix d-none d-sm-inline-block">Корзина</span>
+            </a>
+          </li>
+        </ul> <!--Конец создание меню справа--> 
+      </div> <!--Конец создания адаптивного меню-->
+    </div>
+  </nav> <!--Конец создания навигационной панели-->
+
+
+  <div class="carousel slide" data-ride="carousel" id="slides"> <!--Блок слайдера-->
+    <ul class="carousel-indicators"> <!--Создание переходов между сладами (3 точки переходов внизу)-->
+      <li data-target="#slides" data-slide-to="0" class="active"></li> <!--Переход к 1-ому слайдеру-->
+      <li data-target="#slides" data-slide-to="1"></li> <!--Переход к 2-ому слайдеру-->
+      <li data-target="#slides" data-slide-to="2"></li> <!--Переход к 3-ому слайдеру-->
+    </ul>
+    <div class="carousel-inner"> <!--Добавление картинок-->
+      <div class="carousel-item active"> <!--Добавление картинки 1-->
+        <img src="img/mg1.jpg">
+        <div class="carousel-caption">
+          <h1 class="display2">Интернет магазин по продаже картин и красок "LEONARDO"</h1> <!--Добавление текста к картинке 1-->
+          <h3>Познай искусство с нами</h3>
+        </div>
+      </div>
+      <div class="carousel-item"> <!--Добавление картинки 2-->
+        <img src="img/mg2.jpg">
+      </div>
+      <div class="carousel-item"> <!--Добавление картинки 3-->
+        <img src="img/mg3.jpg">
+      </div> <!--Конец добавления картинок-->
+    </div>
+  </div> <!--Конец блока слайдера-->
+
+
+  <main> <!--Сетка товаров-->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark mdb-color lighten-3 mt-3 mb-5">
+        <span class="navbar-brand">Категории</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" 
+         data-target="#nextNav"> <!--Создание кнопки адаптивного меню-->
+        <span class="navbar-toggler-icon"></span> <!--Иконка для кнопки адаптивного меню-->
+      </button> <!--Конец создание кнопки адаптивного меню-->
+      <div class="collapse navbar-collapse" id="nextNav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a href="#" class="nav-link">Всё</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Винтажные</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Коллекционные</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Авторские</a>
+          </li>
+        </ul>
+        <form class="form-inline">
+          <div class="md-form my-0">
+            <input type="text" class="form-control mr-sm-2" placeholder="Поиск" aria-label="Поиск">
+          </div>
+        </form>
+      </div>    
+      </nav>
+      <section class="text-center md-4">
+
+        <div class="row wow fadeIn"> <!--1-ая линия блока товара-->
+
+          <div class="col-lg-3 col-md-6 md-4"> <!--Блок (ячейка) товара-->
+            <div class="card">
+              <div class="view overlay">
+                <img class="card-img-top" src="img/11.jpg">
+                <a href="#">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+              <div class="card-body text-center">
+                <a href="#" class="grey-text">
+                  <h5>Ванг Гог</h5>
+                </a>
+                <h5>
+                  <strong>
+                    <a href="#" class="dark-grey-text">"Женская спина"<span class="badge badge-pill danger-color">Копия</span></a>
+                  </strong>
+                </h5>
+                <h4 class="font-weight-bold blue-text">11500руб</h4>
+              </div>
+            </div>
+          </div> <!--Конец блока (ячейки) товара-->
+           <div class="col-lg-3 col-md-6 md-4"> <!--Блок (ячейка) товара-->
+            <div class="card">
+              <div class="view overlay">
+                <img class="card-img-top" src="img/22.jpg">
+                <a href="#">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+              <div class="card-body text-center">
+                <a href="#" class="grey-text">
+                  <h5>Масло</h5>
+                </a>
+                <h5>
+                  <strong>
+                    <a href="#" class="dark-grey-text">"Танцовщица"</a>
+                  </strong>
+                </h5>
+                <h4 class="font-weight-bold blue-text">2400руб</h4>
+              </div>
+            </div>
+          </div> <!--Конец блока (ячейки) товара-->
+           <div class="col-lg-3 col-md-6 md-4"> <!--Блок (ячейка) товара-->
+            <div class="card">
+              <div class="view overlay">
+                <img class="card-img-top" src="img/33.jpg">
+                <a href="#">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+              <div class="card-body text-center">
+                <a href="#" class="grey-text">
+                  <h5>Гуашь</h5>
+                </a>
+                <h5>
+                  <strong>
+                    <a href="#" class="dark-grey-text">"Мечта мужчины"</a>
+                  </strong>
+                </h5>
+                <h4 class="font-weight-bold blue-text">1700руб</h4>
+              </div>
+            </div>
+          </div> <!--Конец блока (ячейки) товара-->
+           <div class="col-lg-3 col-md-6 md-4"> <!--Блок (ячейка) товара-->
+            <div class="card">
+              <div class="view overlay">
+                <img class="card-img-top" src="img/44.jpg">
+                <a href="#">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+              <div class="card-body text-center">
+                <a href="#" class="grey-text">
+                  <h5>Гуашь</h5>
+                </a>
+                <h5>
+                  <strong>
+                    <a href="#" class="dark-grey-text">"Качели красоты"</a>
+                  </strong>
+                </h5>
+                <h4 class="font-weight-bold blue-text">1250руб</h4>
+              </div>
+            </div>
+          </div> <!--Конец блока (ячейки) товара-->
+
+        </div> <!--Конец 1-ой линии блока товара-->
+
+        <div class="row wow fadeIn"> <!--2-ая линия блока товара-->
+
+          <div class="col-lg-3 col-md-6 md-4"> <!--Блок (ячейка) товара-->
+            <div class="card">
+              <div class="view overlay">
+                <img class="card-img-top" src="img/55.jpg">
+                <a href="#">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+              <div class="card-body text-center">
+                <a href="#" class="grey-text">
+                  <h5>Гуашь</h5>
+                </a>
+                <h5>
+                  <strong>
+                    <a href="#" class="dark-grey-text">"Женские глаза"</a>
+                  </strong>
+                </h5>
+                <h4 class="font-weight-bold blue-text">500руб</h4>
+              </div>
+            </div>
+          </div> <!--Конец блока (ячейки) товара-->
+           <div class="col-lg-3 col-md-6 md-4"> <!--Блок (ячейка) товара-->
+            <div class="card">
+              <div class="view overlay">
+                <img class="card-img-top" src="img/66.jpg">
+                <a href="#">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+              <div class="card-body text-center">
+                <a href="#" class="grey-text">
+                  <h5>Масло</h5>
+                </a>
+                <h5>
+                  <strong>
+                    <a href="#" class="dark-grey-text">"Я никак не танцую"</a>
+                  </strong>
+                </h5>
+                <h4 class="font-weight-bold blue-text">4700руб</h4>
+              </div>
+            </div>
+          </div> <!--Конец блока (ячейки) товара-->
+           <div class="col-lg-3 col-md-6 md-4"> <!--Блок (ячейка) товара-->
+            <div class="card">
+              <div class="view overlay">
+                <img class="card-img-top" src="img/77.jpg">
+                <a href="#">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+              <div class="card-body text-center">
+                <a href="#" class="grey-text">
+                  <h5>Масло</h5>
+                </a>
+                <h5>
+                  <strong>
+                    <a href="#" class="dark-grey-text">"Ангельский взмах"</a>
+                  </strong>
+                </h5>
+                <h4 class="font-weight-bold blue-text">1200руб</h4>
+              </div>
+            </div>
+          </div> <!--Конец блока (ячейки) товара-->
+           <div class="col-lg-3 col-md-6 md-4"> <!--Блок (ячейка) товара-->
+            <div class="card">
+              <div class="view overlay">
+                <img class="card-img-top" src="img/88.jpg">
+                <a href="#">
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+              <div class="card-body text-center">
+                <a href="#" class="grey-text">
+                  <h5>Акварель</h5>
+                </a>
+                <h5>
+                  <strong>
+                    <a href="#" class="dark-grey-text">"Неизвестное лицо"</a>
+                  </strong>
+                </h5>
+                <h4 class="font-weight-bold blue-text">150руб</h4>
+              </div>
+            </div>
+          </div> <!--Конец блока (ячейки) товара-->
+
+        </div> <!--Конец 2-ой линии блока товара-->
+
+      </section>
+      
+      <nav class="d-flex justify-content-center wow fadeIn"> <!--Переходы по страницам по цифрам-->
+        <ul class="pagination pg-blue">
+          <li class="page-item disabled">
+            <a href="#" class="page-link" arial-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item active">
+            <a href="#" class="page-link" arial-label="Previous">
+              <span aria-hidden="true">1</span>
+            </a>
+          </li>
+          <li class="page-item">
+            <a href="#" class="page-link" arial-label="Previous">
+              <span aria-hidden="true">2</span>
+            </a>
+          </li>
+          <li class="page-item">
+            <a href="#" class="page-link" arial-label="Previous">
+              <span aria-hidden="true">3</span>
+            </a>
+          </li>
+          <li class="page-item">
+            <a href="#" class="page-link" arial-label="Previous">
+              <span aria-hidden="true">4</span>
+            </a>
+          </li>
+          <li class="page-item">
+            <a href="#" class="page-link" arial-label="Previous">
+              <span aria-hidden="true">5</span>
+            </a>
+          </li>
+          <li class="page-item">
+            <a href="#" class="page-link" arial-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav> <!--Конец переходов по страницам по цифрам-->
+
+    </div>
+  </main> <!--Конец сетки товаров-->
+
+  <footer class="page-footer font-small blue pt-4"> <!--Футер сайта-->
+    <div class="container-fluid">
+      <div class="row padding text-center">
+        <div class="col-12">
+          <h2>Наши контакты</h2>
+        </div>
+        <div class="col-12 social padding">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-google-plus-g"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer> <!--Конец футера сайта-->
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script> <!--Подключение JavaScript и Jquery-->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/mdb.min.js"></script> <!--Конец подключения JavaScript и Jquery-->
+</body>
+
+</html>

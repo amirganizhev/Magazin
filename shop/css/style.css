@@ -1,0 +1,8 @@
+
+.carousel-caption {
+	position: absolute;
+	top: 70%;
+	transform: translateY(-90%);
+	text-shadow: 1px 1px 10px #000;
+}
+
